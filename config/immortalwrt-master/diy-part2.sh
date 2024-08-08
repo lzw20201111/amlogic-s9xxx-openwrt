@@ -26,6 +26,10 @@ echo "DISTRIB_SOURCECODE='immortalwrt'" >>package/base-files/files/etc/openwrt_r
 rm -rf package/luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 git clone https://github.com/rq1025330/luci-app-virtualhere.git package/luci-app-virtualhere
+git clone https://github.com/lzw20201111/OpenOray.git package/luci-app-pgyvpn
+git clone https://github.com/lzw20201111/OpenOray.git package/luci-app-phtunnel
+git clone https://github.com/lzw20201111/OpenOray.git package/pgyvpn
+git clone https://github.com/lzw20201111/OpenOray.git package/phtunnel
 #
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
