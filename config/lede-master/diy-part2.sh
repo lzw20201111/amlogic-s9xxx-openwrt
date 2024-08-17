@@ -31,7 +31,7 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # Add luci-app-amlogic
 rm -rf package/luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
-git clone https://github.com/lzw20201111/luci-app-virtualhere.git package/luci-app-virtualhere
+git clone https://github.com/lzw20201111/240817-virtualhere.git package/luci-app-virtualhere
 #
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
